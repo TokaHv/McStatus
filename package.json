@@ -1,0 +1,22 @@
+{
+  "name": "minecraft-discord-bot",
+  "version": "1.0.0",
+  "description": "Discord bot for Minecraft server status monitoring",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["discord", "minecraft", "bot", "status"],
+  "author": "Toka",
+  "license": "ISC",
+  "engines": {
+    "node": "18.x"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "minecraft-server-util": "^5.4.4",
+    "express": "^4.21.1",
+    "dotenv": "^16.4.5"
+  }
+}
